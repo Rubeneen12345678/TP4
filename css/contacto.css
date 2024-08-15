@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(5, 7, 145);
+}
+body {
+    background-image: url(../img/redes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    display: flex;
+    justify-content: center;   
+}
+section {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 47px;
+    color: rgb(201, 57, 57);
+    width: 100%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    color: rgb(101, 3, 228);
+}

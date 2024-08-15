@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+padding: 0;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 75px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+header nav li a {
+    text-decoration: none;
+    color: rgb(185, 8, 8);
+    
+}
+header nav li{
+    list-style: none;
+    padding: 0px 0px 10px 0px;
+    
+}
+body {
+    background-color: rgb(8, 250, 129);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    padding: 10px 0px 0px 0px;
+}
